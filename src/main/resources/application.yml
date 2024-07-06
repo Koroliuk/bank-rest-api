@@ -6,7 +6,6 @@ spring:
     username: ${DB_USER}
     password: ${DB_PASSWORD}
   jpa:
-    show-sql: true
     generate-ddl: true
     hibernate:
       ddl-auto: update
